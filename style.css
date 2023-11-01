@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px; /*preenchimento*/
+    background-color: rgb(116,  77, 5); /*cor de fundo do nosso cabecalho */ 
+    overflow: hidden; 
+    line-height: 200px; /*altura da linha*/
+    max-height: 200px; /*altura maxima*/
+}
+
+header > h1 { /*selecionamos aqui a cor da letra do nosso h1*/
+    color: white; /*cor da letra*/
+}
+
+header > img { /*aqui estamos chamando nossa imagem para ser atribuidas alterações*/
+    width: 200px; /*largura da imagem */
+    height: 145px; /*tamanho da imagem*/
+}
+
+#menu-header { /*nosso menu de navegação*/
+    display: flex; /*colocar itens lado a lado*/
+    align-items: center; /*alinhar os itens do nosso header para o centro*/
+
+}
+ 
+#list-menu { /*chamando a lista não ordenada*/
+    display: flex; /*colocar itens lado a lado*/
+    margin-right: 1rem; /*margem da direita, 1 rem equivale a 10px, ou podemos usa-lo para facilitar a inserção 
+    de px*/
+}
+
+.item-menu-header { /*nossas li que estão dentro do list menu, onde se encontram os nomes dos itens 
+    apresentados no header*/
+    margin-right: 25px; /*margem da direita*/
+
+}
+
+.item-menu-header > a:hover { /*nossas li que estão dentro do list menu. (a) nossa tag de link que é representada
+    por: home/produtos/contato. e o hover responsavel pela modificação de cor ao passar o cursor em cima*/
+    color: yellow; /*atribuir a cor desejada */
+    transition: 1s; /*tempo que sera exibido ao passar o cursor*/
+}
+
+.item-menu-header > a { /*nossas li que estão dentro do list menu. (a) nossa tag de link que é representada por 
+    home/produto/contato*/
+    color: white;
+    text-decoration: none; /*responsavel por tirar o sublinhado inferior que estava visivel*/
+    font-size: 12px; /*  tamanho da letra */
+    
+}
+
+#botao-header { /*nossa id do botão de login*/
+    display: flex; /*responsavel por colocar os itens na mesma linha (lado a lado)*/
+
+}
+
+#botao-header > button { /*aqui chamamos nossa id e onde queremos fazer */
+    padding: 8px; /*preenchimento*/
+    background-color: transparent; /*deixamos o fundo do botao transparente, ou seja sem o fundo branco que estava em primeiro plano*/
+    border: none; /*nome usado para retirar algo, nesse caso a borda */
+}
+
+#botao-header > button > a { /*estamos chamando aqui nossa tag de link para alteracao*/
+    display: flex; /*responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center; /*alinhar os itens para o centro*/
+}
+
+#botao-header > button > a > img { /*aqui estamos usando no icon de botão*/
+    width: 30px; /*largura*/
+    height: 30px; /*tamanho*/
+    margin-right: 2px; /*margem da direita*/
+
+}
