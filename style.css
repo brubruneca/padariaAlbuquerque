@@ -80,3 +80,34 @@ header > img { /*aqui estamos chamando nossa imagem para ser atribuidas alteraç
     margin-right: 2px; /*margem da direita*/
 
 }
+
+#botao-header > button > a { /*estamos chamando aqui nossa tag de link
+    para alteração (novamente)*/
+    color: white; /*cor da letra*/
+    text-decoration: none; /*responsavel por tirar o sublinhado que estava 
+    visivel*/
+    font-weight: 400; /*espessura da fonte*/
+} 
+
+/*diferença entre ID e Class: A diferença entre um id e uma class é que um
+id é usado apenas para identificar um único elemento em nosso HTML.
+Os identificadores são usados apenas quando um elemento na página precisa 
+ter um estilo especifico aplicado a ele.
+No entanto, uma class pode ser usada para identificar mais de um elemento
+HTML*/
+
+#img-destaque {
+    background-image: url(imagens/padaria.webp);
+    padding: 260px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.img-div {
+    padding: 25px;
+    background-image: url(imagens/img-div.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
