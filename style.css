@@ -165,3 +165,8 @@ HTML*/
     margin-top: 10px;
     align-items: center;
 }
+
+#products {
+    padding: 30px;
+    background-color: bisque;
+}
