@@ -167,6 +167,77 @@ HTML*/
 }
 
 #products {
-    padding: 30px;
-    background-color: bisque;
+    padding: 30px; /*preenchimento*/
+    background: linear-gradient(180deg, #d49664 8.33%,  rgba(244, 200, 175, 0) 100%); 
+    /*aqui iniciamos uma estilização de fundo em degradê*/
+}
+
+.section-products { /*chamamos nossa div pai para estilização*/
+    margin-top: 3em; /*espaçamento superior*/
+    display: flex; /*tornando essa sessão flex jogando lado a lado */
+    align-items: center; /*alinhando itens ao centro*/
+    justify-content: space-evenly; /*espaçamento especificado*/
+
+}
+
+.img-product { /*aqui chamamos nossas imagens para edição*/
+    width: 300px; /*largura das imagens*/
+    height: 300px; /*altura das imagens*/
+    border-radius: 50px; /*arrendondamento das bordas*/
+}
+
+.text-products { /*chamamos nosso titulo para estilização*/
+    margin-top: 10px; /*espaçamento do titulo em relação a img*/
+    font-family: Arial, Helvetica, sans-serif; /*familia da fonte*/
+    text-align: center; /*alinhamento do texto ao centro*/
+    font-size: 22px; /*tamanho da letra*/
+
+}
+
+#products > a { /*aqui chamamos nossa tag "a" para estilização*/
+    text-decoration: none; /*desabilitamos a decoração (sublinhado)*/
+    font-family: Arial, Helvetica, sans-serif; /*familia de fonte*/
+    font-size: 20px; /*tamanho da fonte */
+    color: black; /*cor da letra */
+    display: flex; /*jogando lado a lado*/
+    justify-content: center; /*alinhando ao centro*/
+    text-align: center; /*alinhando ao centro*/
+
+}
+#products > h2 {
+    text-align: center;
+}
+
+#products > a:hover { /*efeito ao passar o mouse*/
+    font-size: 22px; /* tamanho da letra*/
+    transition: 0.8s; /*tempo de transição ao passar o mouse */
+    color: tomato; /*cor da letra ao passar o mouse*/
+    
+}          
+
+#sobre-nos { /*chamamos nossa sobre nós para estilização*/
+    background-image: url(imagens/fundo-sobre-nos.jpg); /*inserimos aqui nossa imagem*/
+    padding: 120px; /*tamanho do preenchimento da sessão*/
+    background-position: center; /*posicionamento da imagem ao centro*/
+    background-attachment: fixed; /*habilitamos o tamanho total da imagem*/
+    background-repeat: no-repeat; /*não repetição da imagem*/
+}
+
+#sobre-nos > h3{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px; 
+    
+
+}
+
+#sobre-nos > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 2em;
+
 }
