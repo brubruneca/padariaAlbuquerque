@@ -241,3 +241,46 @@ HTML*/
     margin-top: 2em;
 
 }
+
+footer {
+    padding: 80px;
+    background-image: url(imagens/img-footer.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer > h2 {
+    color: black; /*cor da letra*/
+    font-size: 40px; /*tamanho da letra*/
+    font-weight: bold; /*espessurada letra*/
+    text-align: center; /*alinhar texto ao centro*/
+    margin-bottom: 30px; /*margem inferior*/
+}
+
+.item-menu-footer { /*aqui chamamos nossa class das li*/
+    align-items: center; /*posicionamos ao centro*/
+    margin-top: 30px; /*espaçamento superior*/
+    display: flex; /*alinhando os itens lado a lado*/
+}
+
+.item-menu-footer > img { /*aquic chamamos nossa img para estilização*/
+    width: 34px; /*largura da imagem*/
+    height: 34px; /*altura da imagem */
+}
+
+.item-menu-footer > p { /*aqui chamamos nossa tag P para estilização*/
+    color: black; /*cor da letra*/
+    font-size: 24px; /*tamanho da letra*/
+    font-weight: bold; /*espessura da letra*/
+    margin-left: 10px; /*espaçamento à esquerda*/
+}
+
+#products > h2 {
+    margin-top:120px;
+}
