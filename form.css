@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*aqui colocarmos estilização no corpo da pagina (body) */
+
+body {
+    width: 100%; /*Largura*/
+    height: 100vh; /*Tamanho*/
+    background-image: url(imagens/img-footer.jpg); /*aqui inserimos e imagem*/
+    background-position: center; /*posicionamentos a imagem ao centro*/
+    background-repeat: no-repeat; /*colocamos para que o img nao se repita*/
+    background-size: cover ; /*aqui atribuimos para que a imagem fique sobre toda nossa pagina*/
+    display: flex; /*responsavel por colocar os itens na mesma linha (lado a lado)*/
+    align-items: center; /*alinhar os itens para o centro*/ 
+    justify-content: center ; /*justificar conteudo ao centro*/
+}
+
+.container { /*aqui estamos chamando nossa class da div pai*/
+    max-width: 1280px; /*atribuimos aqui um tamanho maximo de largura que essa class ira exercer*/
+    margin: 0 auto; /*dizemos ao navegador que as margens superior e inferior são iguais a 0 e 
+    as da esquerda e direita são automaticas*/
+}
+
+form { /*aqui chamamos nosso form para estilização*/
+    background-color: white; /*colocamos uma cor de fundo*/
+    max-width: 500px; /*atrubuimos aqui um tamanho maximo de largura que esse formulario ira exercer*/
+    height: 450px; /*largura do formulario */
+    padding: 40px; /*preenchimento */
+    border-radius: 20px; /*arredondamento das bordas do formulario*/
+}
+
+form h1 {
+    text-align: center; /*chamamos nosso texto para estilização*/
+    font-size: 30px;
+    color: black;
+}
+
+form p { /*chamamos nosso paragrafo para estilização*/
+    text-align: center; /*alinhando para o centro nosso paragrafo*/
+    margin: 20px 0; /*dizemos ao navegador que as margens superior e inferior são iguais a 20 e as da esquerda
+    e direita são 0*/
+}
+
+.input-single { /*chamamos nossa class que está encabeçada nas div dos nossos input e label*/
+    position: relative; /*posição relativa*/
+    margin: 20px 0; /*dizemos ao navegador que as margens superior e inferior são iguais a 20 e as
+    da esquerda e direita são 0*/
+
+}
