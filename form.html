@@ -15,7 +15,7 @@
 
         <div class="container">
 
-            <form action="formulario.php">
+            <form action="cad.php" method="get">
             <h1>Cadastre-se e tenha facilidades e descontos exclusivos</h1>
 
             <p>Preencha o formulario abaixo e entraremos em contato com você</p>
@@ -23,24 +23,24 @@
                 <!-- pequena descrição usando a TAG do Paragrafo -->
 
             <div class="input-single"> <!-- Aqui criamos uma DIV para inserirmos nossa Label e Input-->
-                <input type="text" id="nome-box"  class="input" name="none" autocomplete="off" required>
+                <input type="text" id="nome"  class="input" name="nome" autocomplete="off" required>
                 <!-- Identificação que serão usadas no PHP--> 
-                <label for="">Nome completo</label> <!-- Aqui colocamos o nome que irá aparecer do lado
+                <label for="nome">Nome</label> <!-- Aqui colocamos o nome que irá aparecer do lado
                 da nossa caixa (input)-->
             </div>
 
             
             <div class="input-single">
-                <input type="email" name="email" id="email-box" class="input" autocomplete="off" required>
-                <label for="email-box">Seu Email</label>
+                <input type="text" name="sobrenome" id="sobrenome" class="input" autocomplete="off" required>
+                <label for="sobrenome">Sobrenome</label>
 
             </div>
 
 
 
             <div class="input-single">
-                <input type="number" id="tel-box" class="input" name="telefone" autocomplete="off" required>
-                <label for="tel-box">Seu telefone</label>
+                <input type="email" id="email" class="input" name="email" autocomplete="off" required>
+                <label for="email">Email</label>
 
             </div>
 
