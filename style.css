@@ -105,7 +105,7 @@ HTML*/
 }
 
 .img-div {
-    padding: 20%;
+    padding: 2.5%;
     background-image: url(imagens/img-div.jpg);
     background-position: center;
     background-size: auto;
@@ -125,7 +125,7 @@ HTML*/
 
 .line {
     margin: 0 auto;
-    width: 30%;
+    width: 25%;
 
 }
 
@@ -330,6 +330,15 @@ footer > h2 {
             width: 100%;
         }
 
+        #clients h2 {
+            font-size: 2em;
+            
+        }
 
+        #clients hr {
+            width: 90%;
+            margin: 0 auto;
+
+        }
 
 }
