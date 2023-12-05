@@ -166,13 +166,13 @@ HTML*/
     align-items: center;
 }
 
-#products {
+#featured-products {
     padding: 30px; /*preenchimento*/
     background: linear-gradient(180deg, #d49664 8.33%,  rgba(244, 200, 175, 0) 100%); 
     /*aqui iniciamos uma estilização de fundo em degradê*/
 }
 
-.section-products { /*chamamos nossa div pai para estilização*/
+.products { /*chamamos nossa div pai para estilização*/
     margin-top: 3em; /*espaçamento superior*/
     display: flex; /*tornando essa sessão flex jogando lado a lado */
     align-items: center; /*alinhando itens ao centro*/
@@ -194,7 +194,7 @@ HTML*/
 
 }
 
-#products > a { /*aqui chamamos nossa tag "a" para estilização*/
+#featured-products > a { /*aqui chamamos nossa tag "a" para estilização*/
     text-decoration: none; /*desabilitamos a decoração (sublinhado)*/
     font-family: Arial, Helvetica, sans-serif; /*familia de fonte*/
     font-size: 20px; /*tamanho da fonte */
@@ -204,7 +204,7 @@ HTML*/
     text-align: center; /*alinhando ao centro*/
 
 }
-#products > h2 {
+#featured-products > h2 {
     text-align: center;
 }
 
@@ -217,7 +217,7 @@ HTML*/
 
 #sobre-nos { /*chamamos nossa sobre nós para estilização*/
     background-image: url(imagens/fundo-sobre-nos.jpg); /*inserimos aqui nossa imagem*/
-    padding: 120px; /*tamanho do preenchimento da sessão*/
+    padding: 10%; /*tamanho do preenchimento da sessão*/
     background-position: center; /*posicionamento da imagem ao centro*/
     background-attachment: fixed; /*habilitamos o tamanho total da imagem*/
     background-repeat: no-repeat; /*não repetição da imagem*/
@@ -227,7 +227,7 @@ HTML*/
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 50px; 
+    font-size: 4em; 
     
 
 }
@@ -281,7 +281,7 @@ footer > h2 {
     margin-left: 10px; /*espaçamento à esquerda*/
 }
 
-#products > h2 {
+#featured-products > h2 {
     margin-top:120px;
 }
 
@@ -320,9 +320,10 @@ footer > h2 {
         padding: 5%;
     }
 
-        #img-destaque {
+        .img-destaque {
             max-width: 100%;
             height: auto;
+            background-position: center;
             
         }
 
@@ -335,7 +336,7 @@ footer > h2 {
             
         }
 
-        #clients hr {
+        .line {
             width: 47%;
             
         }
@@ -361,8 +362,39 @@ footer > h2 {
         margin-top: 40px;
      }
 
-        #products {
+      .products {
             display: block;
-        }
+            
+       }
 
-     }
+    .img-product {
+        margin-top: 60px;
+    
+    }
+
+    #featured-products a {
+        margin-top: 25px;
+    }
+
+    #sobre-nos h3 {
+        font-size: 1.5em;
+    }
+
+    #sobre-nos p {
+        font: bold;
+        font-size: 1.2em;
+    }
+
+    .contatos-footer {
+        display: block;
+    }
+
+    .item-menu-footer {
+        display: block;
+    }
+
+    .item-menu-footer img {
+        margin-left: 5em;
+    }
+
+}
